@@ -293,7 +293,7 @@ toc;
     %%% Write file
     bad_idx = ismember(T_all.location, {'60', '66', '69'});
     T_all(bad_idx, :) = [];
-    pathname = '.';
+    pathname = '../22_data-forecasts/';
     thisdate = datestr(zero_date+thisday+1, 'yyyy-mm-dd');
     fullpath = [pathname];
     writetable(T_all, [fullpath '/' thisdate '-SGroup-RandomForest.csv']);
