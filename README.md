@@ -1,3 +1,3 @@
 # RandomForest-SIkJalpha
-## Citation
+## Paper
 ## Repo Structure:
