@@ -243,7 +243,7 @@ for wks_back = x:-1:5
     %% Write file
     bad_idx = ismember(T_all.location, {'60', '66', '69'});
     T_all(bad_idx, :) = [];
-    pathname = '..\ILI_data_res';
+    pathname = '..\ILI_data_res\';
     thisdate = datestr(zero_date+thisday+1, 'yyyy-mm-dd');
     fullpath = [pathname];
     MMR_WEEK = mod(69-wks_back,52)+1
